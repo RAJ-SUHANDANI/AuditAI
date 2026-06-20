@@ -142,6 +142,7 @@ export async function POST(req: NextRequest) {
         generationConfig: {
           responseMimeType: "application/json",
           responseSchema: AUDIT_RESPONSE_SCHEMA as any,
+          temperature: 0,
         },
       });
 
